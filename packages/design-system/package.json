@@ -1,0 +1,21 @@
+{
+  "name": "@kyovant0/design-system",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.tsx",
+
+  "devDependencies": {
+    "@kyovant0/eslint-config": "workspace:*",
+    "@kyovant0/typescript-config": "workspace:*",
+    "@turbo/gen": "^1.12.4",
+    "@types/node": "^20.11.24",
+    "@types/react": "18.3.0",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "emotion/css": "^11.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
