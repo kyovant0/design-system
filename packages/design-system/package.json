@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "main": "src/index.tsx",
-
+  "imports": {
+    "#*": "./src/*"
+  },
   "devDependencies": {
     "@kyovant0/eslint-config": "workspace:*",
     "@kyovant0/typescript-config": "workspace:*",
@@ -15,7 +17,7 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "emotion/css": "^11.0.0",
+    "@emotion/css": "^11.0.0",
     "react-dom": "^19.0.0"
   }
 }
